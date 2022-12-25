@@ -112,9 +112,9 @@ function animate(time) {
 
 function loadAudio(i) {
     document.getElementById("overlay").innerHTML =
-        `<div class="text-loading">${config.loading}</div>`;;
+        `<div class="text-loading">${config.loading}</div>`;
     const files = [
-        "http://win.web.ra01.sycdn.kuwo.cn/175a5861a2d7f9ad5e567d5f8a674269/63a73ecb/resource/n2/192/63/72/391434206.mp3",
+        "http://win.web.ra01.sycdn.kuwo.cn/d68edb8694ff308327aeae7e93b7ad32/63a7f3d1/resource/n2/192/63/72/391434206.mp3",
         "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Dott/This_Christmas/Dott_-_01_-_This_Christmas.mp3",
         "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/TRG_Banks/TRG_Banks_Christmas_Album/TRG_Banks_-_12_-_No_room_at_the_inn.mp3",
         "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Mark_Smeby/En_attendant_Nol/Mark_Smeby_-_07_-_Jingle_Bell_Swing.mp3"];

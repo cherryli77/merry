@@ -68,3 +68,9 @@ ul {
 .text-loading {
     font-size: 2rem;
 }
+
+.music{
+  position:absolute;
+  left:0;
+  bottom:0;
+}
